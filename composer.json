@@ -1,0 +1,21 @@
+{
+    "name": "bytercold/module-deploy",
+    "description": "ByterCold Deploy Module for Magento 2",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Catalin Ionita",
+            "email": "cata2806@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ByterCold\\Deploy\\": ""
+        }
+    }
+}
